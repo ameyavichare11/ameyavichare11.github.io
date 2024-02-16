@@ -1,0 +1,3663 @@
+{
+    "data": {
+        "meta": {
+            "version": 1
+        },
+        "styles": {
+            "osp-title-text": {
+                "fontColor": "#333333",
+                "font": "small-medium"
+            },
+            "shadow-card": {
+                "shadow": {
+                    "elevation": 1
+                },
+                "border": {
+                    "cornerRadius": "8,8,8,8"
+                },
+                "backgroundColor": "#FFFFFF"
+            },
+            "summary-card": {
+                "backgroundColor": "#FFFFFF"
+            },
+            "cancellation-available-card": {
+                "backgroundColor": "#E8FCED"
+            },
+            "cancellation-unavailable-card": {
+                "backgroundColor": "#FEF3EC"
+            },
+            "normal-card": {
+                "border": {
+                    "cornerRadius": "8,8,8,8"
+                },
+                "backgroundColor": "#FFFFFF"
+            },
+            "movie-name": {
+                "fontColor": "#333333",
+                "font": "body-medium"
+            },
+            "ticket-qty": {
+                "fontColor": "#333333",
+                "font": "body-medium"
+            },
+            "movie-date": {
+                "fontColor": "#404040",
+                "font": "small-medium",
+                "alignVertical": "center"
+            },
+            "movie-ticket-type-widget-text": {
+                "fontColor": "#DC354B",
+                "font": "tiny-medium"
+            },
+            "movie-ticket-type-widget-image": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16",
+                "margin": "0,5,0,0"
+            },
+            "movie-language-venue": {
+                "fontColor": "#666666",
+                "font": "tiny-regular"
+            },
+            "apply-offers-image": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16",
+                "margin": "0,7,0,0"
+            },
+            "apply-offers-right-chevron": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16"
+            },
+            "apply-offers-text": {
+                "fontColor": "#333333",
+                "font": "small-medium",
+                "alignVertical": "center"
+            },
+            "cancellation-title": {
+                "fontColor": "#333333",
+                "font": "tiny-medium"
+            },
+            "cancellation-subtitle": {
+                "fontColor": "#333333",
+                "font": "tiny-regular"
+            },
+            "cancellation-policy-click": {
+                "fontColor": "#3E6EEA",
+                "font": "tiny-regular"
+            },
+            "your-details-text": {
+                "fontColor": "#333333",
+                "font": "small-medium"
+            },
+            "contact-details-title": {
+                "lineMargin": "0,0,6,0"
+            },
+            "booking-details-text": {
+                "fontColor": "#333333",
+                "font": "extra-tiny-regular"
+            },
+            "edit-text-icon": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16",
+                "margin": "0,3,0,0"
+            },
+            "edit-text": {
+                "fontColor": "#DC354B",
+                "font": "tiny-medium"
+            },
+            "contact-details-value": {
+                "fontColor": "#666666",
+                "font": "tiny-regular"
+            },
+            "user-consent-text": {
+                "fontColor": "#333333",
+                "font": "tiny-regular"
+            },
+            "pvr-voucher-card": {
+                "backgroundColor": "#FFFFFF"
+            },
+            "pvr-privilege-text": {
+                "fontColor": "#333333",
+                "font": "tiny-medium"
+            },
+            "pvr-privilege-title": {
+                "lineMargin": "0,0,0,0"
+            },
+            "pvr-privilege-subtitle": {
+                "lineMargin": "0,0,4,0"
+            },
+            "pvr-vouchers-left-text": {
+                "fontColor": "#666666",
+                "font": "tiny-regular"
+            },
+            "view-vouchers-text": {
+                "fontColor": "#DC354B",
+                "font": "tiny-medium"
+            },
+            "view-vouchers-image": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16"
+            },
+            "contact-details-card": {
+                "padding": "8,16,12,16"
+            },
+            "price-info-left": {
+                "fontColor": "#666666",
+                "font": "tiny-medium"
+            },
+            "price-info-left-image": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16"
+            },
+            "price-info-right": {
+                "fontColor": "#333333",
+                "font": "tiny-regular"
+            },
+            "pvr": {
+                "lineMargin": "0,0,8,0"
+            },
+            "generic-instrument-top-left-text": {
+                "fontColor": "#333333",
+                "font": "tiny-medium"
+            },
+            "generic-instrument-top-left-image": {
+                "width": 16,
+                "height": 16,
+                "imageVerticalAlignment": "center",
+                "fontSize": "16",
+                "margin": "0,3,0,0"
+            },
+            "generic-instrument-bottom-left-text": {
+                "fontColor": "#666666",
+                "font": "extra-tiny-regular"
+            },
+            "bas-per-ticket": {
+                "fontColor": "#666666",
+                "font": "extra-tiny-regular",
+                "margin": "0,5,0,0"
+            },
+            "bas-tnc": {
+                "fontColor": "#666666",
+                "font": "extra-tiny-regular",
+                "underline": true
+            },
+            "generic-instrument-top-right-text": {
+                "fontColor": "#333333",
+                "font": "tiny-regular",
+                "horizontalAlignment": "right"
+            },
+            "generic-instrument-remove-text": {
+                "fontColor": "#DC354B",
+                "font": "tiny-medium",
+                "horizontalAlignment": "right"
+            },
+            "bas": {
+                "lineMargin": "0,0,8,0"
+            },
+            "bms-cash-left": {
+                "fontColor": "#404040",
+                "font": "tiny-medium"
+            },
+            "bms-cash-left-image": {
+                "width": 16,
+                "height": 16,
+                "fontSize": "16",
+                "alignVertical": "top",
+                "margin": "0,8,0,0"
+            },
+            "order-total-left": {
+                "fontColor": "#1A1A1A",
+                "font": "tiny-medium"
+            },
+            "order-total-right": {
+                "fontColor": "#333333",
+                "font": "tiny-medium"
+            },
+            "bms-cash": {
+                "lineMargin": "0,0,10,0"
+            },
+            "order-total": {
+                "lineMargin": "12,0,0,0"
+            },
+            "filmy-pass-title": {
+                "lineMargin": "0,0,4,0"
+            },
+            "filmy-pass-left": {
+                "fontColor": "#404040",
+                "font": "tiny-medium"
+            },
+            "filmy-pass-value-right": {
+                "fontColor": "#404040",
+                "font": "tiny-regular"
+            },
+            "filmy-pass-discount": {
+                "fontColor": "#525252",
+                "font": "tiny-regular"
+            },
+            "filmy-pass-promo": {
+                "lineMargin": "0,0,4,0"
+            },
+            "filmy-pass-promo-text": {
+                "fontColor": "#404040",
+                "font": "extra-tiny-regular"
+            },
+            "filmy-pass-toggled": {
+                "width": 16,
+                "height": 16,
+                "alignVertical": "top",
+                "fontSize": "16"
+            },
+            "filmy-pass-view-details": {
+                "fontColor": "#666666",
+                "font": "extra-tiny-regular",
+                "underline": true
+            },
+            "separator": {
+                "border": {
+                    "type": "dashed",
+                    "width": 1,
+                    "color": "#CCCCCC",
+                    "pattern": "2,2"
+                },
+                "lineMargin": "0,0,8,0"
+            },
+            "filmy-pass-icon": {
+                "width": 16,
+                "height": 16,
+                "alignVertical": "top",
+                "fontSize": "16",
+                "margin": "0,8,0,0"
+            },
+            "bms-club-title": {
+                "fontColor": "#525252",
+                "font": "tiny-medium"
+            },
+            "bms-club-subtitle": {
+                "fontColor": "#DC354B",
+                "font": "tiny-bold"
+            },
+            "bms-club-subtitle-added": {
+                "fontColor": "#008A1E",
+                "font": "tiny-bold"
+            },
+            "bms-club-banner-title": {
+                "lineMargin": "0,0,3,0"
+            },
+            "bms-club-logo": {
+                "width": 46,
+                "height": 20,
+                "alignVertical": "center",
+                "fontSize": "16",
+                "aspectRatio": 2,
+                "margin": "0,8,0,0"
+            },
+            "bms-club-banner-card": {
+                "padding": "10,16,10,16"
+            },
+            "bms-club-background": {
+                "height": 55
+            },
+            "footer-total-title": {
+                "font": "extra-tiny-medium",
+                "fontColor": "#666666"
+            },
+            "footer-total-subtitle": {
+                "font": "large-bold",
+                "fontColor": "#333333",
+                "margin": "0,6,0,0"
+            },
+            "footer-total-subtitle-strikeout": {
+                "font": "tiny-medium",
+                "fontColor": "#666666",
+                "strikeout": true
+            },
+            "tvod-banner": {
+                "aspectRatio": 0.542
+            },
+            "tvod-title-line": {
+                "lineMargin": "0,0,10,0"
+            },
+            "tvod-banner-widget": {
+                "padding": "16,24,0,24"
+            },
+            "tvod-info-widget": {
+                "padding": "16,30,16,30"
+            },
+            "tvod-info-title": {
+                "font": "large-bold",
+                "fontColor": "#333333",
+                "horizontalAlignment": "center"
+            },
+            "tvod-info-subtitle": {
+                "font": "small-regular",
+                "fontColor": "#666666",
+                "horizontalAlignment": "center"
+            }
+        },
+        "layouts": {
+            "osp-header": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "$osp-title$",
+                                            "vars": [
+                                                "osp-title"
+                                            ],
+                                            "styleId": "osp-title-text"
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "b65b7a18-7bec-4135-8774-94a8e2784025"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "8303fca9-1913-496b-be6f-c9f9ff564584"
+                    }
+                ],
+                "styleId": "",
+                "uuid": "3bbfe00c-5472-4fb6-acc1-7a855b3c1fcf"
+            },
+            "apply-offers": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "apply-offers-text",
+                                            "text": "$apply-offers-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "apply-offers-text"
+                                            ],
+                                            "uuid": "c0007c98-75ec-457f-ab69-9fe32aa608f7"
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "4bb4dc51-ccdc-4a2f-9e27-be3159b5b749"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "e42eb16a-e5a8-4817-8744-4966d231b2a2"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "apply-offers-right-chevron",
+                                            "imageUrl": "$apply-offers-right-chevron$",
+                                            "type": "image",
+                                            "vars": [
+                                                "apply-offers-right-chevron"
+                                            ],
+                                            "uuid": "f07deb7a-d738-4c56-a1b3-cc1b9b7e9942"
+                                        }
+                                    ],
+                                    "uuid": "384ae558-5601-4952-b184-41bf9bcf615e"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "5975d713-fbcc-421b-ab9b-d93f67f685ee"
+                        },
+                        "styleId": "",
+                        "uuid": "8cf5e5a0-76a1-453a-9487-d1bfabc24ce4"
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "apply-offers-action"
+                    }
+                },
+                "styleId": "normal-card",
+                "uuid": "a6a3c00f-11c5-4fef-be48-8a358b610fda"
+            },
+            "contact-details": {
+                "styleId": "contact-details-card",
+                "uuid": "ccd7b7fe-d184-4b9d-8c12-8671e3197bc1",
+                "list": [
+                    {
+                        "uuid": "e11fe75a-3fa6-43c6-ad6e-739deccaedf9",
+                        "styleId": "contact-details-title",
+                        "leftText": {
+                            "styleId": "",
+                            "uuid": "ea745de9-088c-40bf-baae-5d569d910ced",
+                            "data": [
+                                {
+                                    "styleId": "",
+                                    "uuid": "0b3b3166-9119-4ee5-a5d3-e3b2f3c70da0",
+                                    "components": [
+                                        {
+                                            "styleId": "your-details-text",
+                                            "type": "text",
+                                            "text": "$your-details-text$",
+                                            "vars": [
+                                                "your-details-text"
+                                            ],
+                                            "uuid": "fdd15319-6020-4c94-854c-0141dec62148"
+                                        },
+                                        {
+                                            "styleId": "booking-details-text",
+                                            "type": "text",
+                                            "text": "$booking-details-text$",
+                                            "vars": [
+                                                "booking-details-text"
+                                            ],
+                                            "uuid": "d5734de7-ccdb-4650-bb44-6db90f2d7dfa"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "styleId": "",
+                            "uuid": "d1774304-e92e-4be5-84ea-c567bc1fb303",
+                            "data": [
+                                {
+                                    "uuid": "1fc7177b-869e-462b-9d43-775c325165b7",
+                                    "styleId": "",
+                                    "components": [
+                                        {
+                                            "type": "image",
+                                            "styleId": "edit-text-icon",
+                                            "imageUrl": "$edit-text-icon$",
+                                            "vars": [
+                                                "edit-text-icon"
+                                            ],
+                                            "uuid": "c9e1525a-53dc-435d-a884-7b732abb9d92"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "styleId": "edit-text",
+                                            "text": "$edit-text$",
+                                            "vars": [
+                                                "edit-text"
+                                            ],
+                                            "uuid": "5627bfc1-7f15-4c94-a600-be30ef904d30"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "contact-details-action"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "styleId": "",
+                        "uuid": "b73aae98-401a-448e-972c-9657c9cc908e",
+                        "leftText": {
+                            "uuid": "d93e5c76-ac54-45a8-b859-6a5cd2946795",
+                            "data": [
+                                {
+                                    "uuid": "585a602b-8172-4c71-b7cd-4912667ceb7c",
+                                    "styleId": "",
+                                    "components": [
+                                        {
+                                            "uuid": "4ffa75fc-4bcb-42aa-b0d9-bee6540d49f3",
+                                            "type": "text",
+                                            "styleId": "contact-details-value",
+                                            "text": "$contact-details-title$",
+                                            "vars": [
+                                                "contact-details-title"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "styleId": "",
+                        "uuid": "2e69b48b-ab86-4d12-9524-cb6af138e9f6",
+                        "leftText": {
+                            "uuid": "79bc2794-b282-4727-b383-50634c607b7e",
+                            "data": [
+                                {
+                                    "uuid": "57ae840c-782e-44e6-bfbc-3fc95abdabd6",
+                                    "styleId": "",
+                                    "components": [
+                                        {
+                                            "uuid": "010e2562-a69f-4442-9686-67d4b8541bc8",
+                                            "type": "text",
+                                            "styleId": "contact-details-value",
+                                            "text": "$contact-details-subtitle$",
+                                            "vars": [
+                                                "contact-details-subtitle"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "movie-cancellation-available": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$cancellation-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cancellation-title"
+                                            ],
+                                            "uuid": "84a91eef-014e-430d-afd1-0fffc44cfdf3"
+                                        }
+                                    ],
+                                    "styleId": "cancellation-title",
+                                    "uuid": "234ec926-7f55-4056-85bc-15f38b1b5e49"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "fbca219c-7fce-40cd-bc10-a8d714a7e64b"
+                        },
+                        "styleId": "",
+                        "uuid": "1e3c8bcb-5341-4aca-8eb3-92f5b6195e43"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "",
+                                            "uuid": "7bc8ca18-d29f-4106-bb9a-2bb566d94c2e",
+                                            "text": "$cancellation-subtitle-info$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cancellation-subtitle-info"
+                                            ]
+                                        },
+                                        {
+                                            "uuid": "0b0655cf-d244-4c08-a71a-8061842c3986",
+                                            "styleId": "cancellation-policy-click",
+                                            "text": "$cancellation-policy-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cancellation-policy-text"
+                                            ]
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "cancellation-policy-cta"
+                                        }
+                                    },
+                                    "styleId": "cancellation-subtitle",
+                                    "uuid": "a857d48f-2b0d-44e4-a205-bacf7a654ace"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "43b419ca-7759-4130-8b62-eaa379c294aa"
+                        },
+                        "styleId": "",
+                        "uuid": "848c7f95-a834-48fd-b28c-83d3a8d53cdb"
+                    }
+                ],
+                "styleId": "cancellation-available-card",
+                "uuid": "9feb1b39-47b5-442b-8c75-5899fec6890e"
+            },
+            "movie-cancellation-unavailable": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$cancellation-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cancellation-title"
+                                            ],
+                                            "uuid": "84a91eef-014e-430d-afd1-0fffc44cfdf3"
+                                        }
+                                    ],
+                                    "styleId": "cancellation-title",
+                                    "uuid": "234ec926-7f55-4056-85bc-15f38b1b5e49"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "fbca219c-7fce-40cd-bc10-a8d714a7e64b"
+                        },
+                        "styleId": "",
+                        "uuid": "1e3c8bcb-5341-4aca-8eb3-92f5b6195e43"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "",
+                                            "uuid": "7bc8ca18-d29f-4106-bb9a-2bb566d94c2e",
+                                            "text": "$cancellation-subtitle-info$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cancellation-subtitle-info"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "cancellation-subtitle",
+                                    "uuid": "a857d48f-2b0d-44e4-a205-bacf7a654ace"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "43b419ca-7759-4130-8b62-eaa379c294aa"
+                        },
+                        "styleId": "",
+                        "uuid": "848c7f95-a834-48fd-b28c-83d3a8d53cdb"
+                    }
+                ],
+                "styleId": "cancellation-unavailable-card",
+                "uuid": "9feb1b39-47b5-442b-8c75-5899fec6890e"
+            },
+            "movie-summary-info": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-name$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-name"
+                                            ],
+                                            "uuid": "9865e442-59f1-4efe-9ab5-48bc0a71ad0e"
+                                        }
+                                    ],
+                                    "styleId": "movie-name",
+                                    "uuid": "5ab2c312-d704-44a0-bf5a-ff440411bcc5"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "8c66c0b7-fab1-41dd-9105-14b5bc485374"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-ticket-qty$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-ticket-qty"
+                                            ],
+                                            "uuid": "ba7ff5ab-fe97-40e9-bfca-44841c1b0a14"
+                                        }
+                                    ],
+                                    "styleId": "ticket-qty",
+                                    "uuid": "7b5fc98a-31cb-4d86-9f95-aa199828a46b"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "e7205b3e-d98d-449e-9b71-5ae9de0c2a49"
+                        },
+                        "styleId": "",
+                        "uuid": "0588a452-b015-4d94-8a83-ebe938b7d67f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-date$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-date"
+                                            ],
+                                            "uuid": "9e093cb9-9ec3-4b66-8c09-cb2855e0ba6d"
+                                        }
+                                    ],
+                                    "styleId": "movie-date",
+                                    "uuid": "707439d1-ec9a-4fcf-ba1b-c3486970a321"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "d0f9583e-2117-4ad5-bd58-916aa1ce12e0"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "movie-ticket-type-widget-image",
+                                            "imageUrl": "$summary-ticket-type-image$",
+                                            "type": "image",
+                                            "vars": [
+                                                "summary-ticket-type-image"
+                                            ],
+                                            "uuid": "e542baa3-aae1-48d9-a7f2-3f9e5897880a"
+                                        },
+                                        {
+                                            "styleId": "movie-ticket-type-widget-text",
+                                            "text": "$summary-ticket-type-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-ticket-type-text"
+                                            ],
+                                            "uuid": "54778720-066f-46e4-b0f6-84ade3f14583"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "ticket-type-cta"
+                                        }
+                                    },
+                                    "styleId": "",
+                                    "uuid": "d2090d70-824a-4604-b698-2a7d1062cb80"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "6c77efa3-da17-4f67-9040-a1d365b25128"
+                        },
+                        "styleId": "",
+                        "uuid": "f0e9689e-2bf4-4f2f-8e31-8f7c8815a47f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-language$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-language"
+                                            ],
+                                            "uuid": "fac199b9-5a59-49ad-ba18-a217eecd4a55"
+                                        }
+                                    ],
+                                    "styleId": "movie-language-venue",
+                                    "uuid": "3b35eb8e-6383-45ff-ae2d-650500e3e760"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "eba2f4e7-4d59-4c0f-a598-d2504e28aed9"
+                        },
+                        "styleId": "",
+                        "uuid": "f2748023-3194-4449-a38f-af618dc5f201"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-venue$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-venue"
+                                            ],
+                                            "uuid": "581307e7-3379-4279-ad5b-61a5e03b8679"
+                                        }
+                                    ],
+                                    "styleId": "movie-language-venue",
+                                    "uuid": "2271f6c4-e200-4e9a-969f-5f3dec9e818c"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "fc09114e-062d-4b9a-bb35-8896abc574f8"
+                        },
+                        "styleId": "",
+                        "uuid": "68529f49-d11f-4c83-899d-38e126884583"
+                    }
+                ],
+                "styleId": "summary-card",
+                "uuid": "af131915-215c-4dcd-9e19-905c03a9d0e3"
+            },
+            "summary-info-without-ticket-type-change": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-name$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-name"
+                                            ],
+                                            "uuid": "9865e442-59f1-4efe-9ab5-48bc0a71ad0e"
+                                        }
+                                    ],
+                                    "styleId": "movie-name",
+                                    "uuid": "5ab2c312-d704-44a0-bf5a-ff440411bcc5"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "8c66c0b7-fab1-41dd-9105-14b5bc485374"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-ticket-qty$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-ticket-qty"
+                                            ],
+                                            "uuid": "ba7ff5ab-fe97-40e9-bfca-44841c1b0a14"
+                                        }
+                                    ],
+                                    "styleId": "ticket-qty",
+                                    "uuid": "7b5fc98a-31cb-4d86-9f95-aa199828a46b"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "e7205b3e-d98d-449e-9b71-5ae9de0c2a49"
+                        },
+                        "styleId": "",
+                        "uuid": "0588a452-b015-4d94-8a83-ebe938b7d67f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-date$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-date"
+                                            ],
+                                            "uuid": "9e093cb9-9ec3-4b66-8c09-cb2855e0ba6d"
+                                        }
+                                    ],
+                                    "styleId": "movie-date",
+                                    "uuid": "707439d1-ec9a-4fcf-ba1b-c3486970a321"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "d0f9583e-2117-4ad5-bd58-916aa1ce12e0"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "movie-ticket-type-widget-text",
+                                            "text": "$summary-ticket-type-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-ticket-type-text"
+                                            ],
+                                            "uuid": "54778720-066f-46e4-b0f6-84ade3f14583"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "ticket-type-cta1"
+                                        }
+                                    },
+                                    "styleId": "",
+                                    "uuid": "d2090d70-824a-4604-b698-2a7d1062cb80"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "6c77efa3-da17-4f67-9040-a1d365b25128"
+                        },
+                        "styleId": "",
+                        "uuid": "f0e9689e-2bf4-4f2f-8e31-8f7c8815a47f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-language$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-language"
+                                            ],
+                                            "uuid": "fac199b9-5a59-49ad-ba18-a217eecd4a55"
+                                        }
+                                    ],
+                                    "styleId": "movie-language-venue",
+                                    "uuid": "3b35eb8e-6383-45ff-ae2d-650500e3e760"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "eba2f4e7-4d59-4c0f-a598-d2504e28aed9"
+                        },
+                        "styleId": "",
+                        "uuid": "f2748023-3194-4449-a38f-af618dc5f201"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-venue$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-venue"
+                                            ],
+                                            "uuid": "581307e7-3379-4279-ad5b-61a5e03b8679"
+                                        }
+                                    ],
+                                    "styleId": "movie-language-venue",
+                                    "uuid": "2271f6c4-e200-4e9a-969f-5f3dec9e818c"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "fc09114e-062d-4b9a-bb35-8896abc574f8"
+                        },
+                        "styleId": "",
+                        "uuid": "68529f49-d11f-4c83-899d-38e126884583"
+                    }
+                ],
+                "styleId": "summary-card",
+                "uuid": "af131915-215c-4dcd-9e19-905c03a9d0e3"
+            },
+            "tvod-summary-info": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-name$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-name"
+                                            ],
+                                            "uuid": "9865e442-59f1-4efe-9ab5-48bc0a71ad0e"
+                                        }
+                                    ],
+                                    "styleId": "movie-name",
+                                    "uuid": "5ab2c312-d704-44a0-bf5a-ff440411bcc5"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "8c66c0b7-fab1-41dd-9105-14b5bc485374"
+                        },
+                        "styleId": "",
+                        "uuid": "0588a452-b015-4d94-8a83-ebe938b7d67f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$summary-language$",
+                                            "type": "text",
+                                            "vars": [
+                                                "summary-language"
+                                            ],
+                                            "uuid": "9e093cb9-9ec3-4b66-8c09-cb2855e0ba6d"
+                                        }
+                                    ],
+                                    "styleId": "movie-language-venue",
+                                    "uuid": "707439d1-ec9a-4fcf-ba1b-c3486970a321"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "d0f9583e-2117-4ad5-bd58-916aa1ce12e0"
+                        },
+                        "styleId": "",
+                        "uuid": "f0e9689e-2bf4-4f2f-8e31-8f7c8815a47f"
+                    }
+                ],
+                "styleId": "summary-card",
+                "uuid": "af131915-215c-4dcd-9e19-905c03a9d0e3"
+            },
+            "price-info-bas": {
+                "styleId": "bas",
+                "uuid": "1a9fa36e-d8b0-4530-b228-41ab6be98b67",
+                "list": [
+                    {
+                        "styleId": "",
+                        "uuid": "ec4f44cc-efaa-428a-a9ca-80ca0606cda5",
+                        "leftText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "styleId": "generic-instrument-top-left",
+                                    "components": [
+                                        {
+                                            "type": "image",
+                                            "styleId": "generic-instrument-top-left-image",
+                                            "imageUrl": "$bas-icon$",
+                                            "vars": [
+                                                "bas-icon"
+                                            ],
+                                            "uuid": "88e1a2e7-5601-443e-9d62-e53147791764"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "styleId": "generic-instrument-top-left-text",
+                                            "text": "$bas-text$",
+                                            "vars": [
+                                                "bas-text"
+                                            ],
+                                            "uuid": "0498fc16-e549-4308-9da2-f7be7083548a"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "generic-instrument-top-right",
+                                            "type": "text",
+                                            "text": "$bas-value$",
+                                            "vars": [
+                                                "bas-value"
+                                            ],
+                                            "uuid": "f1de1cae-2b6a-4b2c-bcf9-d288f2afabf9"
+                                        }
+                                    ],
+                                    "uuid": "74bbe0d2-da84-40e2-a848-b8941faa1203"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "styleId": "",
+                        "uuid": "5b48fef1-682b-4d96-818a-1361bc215cf8",
+                        "leftText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "uuid": "453b67f5-d6ee-4f9f-8e01-3c58ddfc9e1e",
+                                    "components": [
+                                        {
+                                            "styleId": "bas-per-ticket",
+                                            "type": "text",
+                                            "text": "$bas-per-ticket$",
+                                            "vars": [
+                                                "bas-per-ticket"
+                                            ],
+                                            "uuid": "082644e4-20e8-4267-a0ef-7b8368baf3b1"
+                                        },
+                                        {
+                                            "styleId": "bas-tnc",
+                                            "type": "text",
+                                            "text": "$bas-tnc$",
+                                            "vars": [
+                                                "bas-tnc"
+                                            ],
+                                            "uuid": "48f5547c-27c2-49b0-a12b-2d78ea79b45a"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "bas-tnc"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "styleId": "generic-instrument-remove-text",
+                                    "uuid": "553f5686-791a-4535-8f85-892527e8baac",
+                                    "components": [
+                                        {
+                                            "type": "text",
+                                            "text": "$bas-action$",
+                                            "uuid": "dfe28789-8ae0-4240-9ca3-241e81369038",
+                                            "vars": [
+                                                "bas-action"
+                                            ]
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "bas-action"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "price-info-bms-cash": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "bms-cash-left-image",
+                        "imageUrl": "$bms-cash-add-icon$",
+                        "type": "image",
+                        "vars": [
+                            "bms-cash-add-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "bms-cash-left",
+                                            "text": "$bms-cash-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-cash-text"
+                                            ],
+                                            "uuid": "1acef025-3a51-4883-b57a-98a17486689f"
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "b65b7a18-7bec-4135-8774-94a8e2784025"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-cash-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-cash-discount"
+                                            ],
+                                            "uuid": "b764f50c-f863-4574-9ec8-6828e4a497b9"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "aa94d76e-a98a-4132-854c-2325f3fb4e8d"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "bms-cash",
+                        "uuid": "8303fca9-1913-496b-be6f-c9f9ff564584"
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-cash-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "3bbfe00c-5472-4fb6-acc1-7a855b3c1fcf"
+            },
+            "price-info-convenience": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$convenience-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-label"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        },
+                                        {
+                                            "styleId": "price-info-left-image",
+                                            "imageUrl": "$accordion$",
+                                            "type": "image",
+                                            "vars": [
+                                                "accordion"
+                                            ],
+                                            "uuid": "53c7b26c-89ea-4704-838c-f761b0daec49"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "accordion"
+                                    },
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "breakdownList": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-cgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-cgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-cgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-cgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-sgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-sgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-sgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-sgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-convenience-zero-rupee": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$convenience-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-label"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-convenience-union-ter": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$convenience-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-label"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        },
+                                        {
+                                            "styleId": "price-info-left-image",
+                                            "imageUrl": "$accordion$",
+                                            "type": "image",
+                                            "vars": [
+                                                "accordion"
+                                            ],
+                                            "uuid": "53c7b26c-89ea-4704-838c-f761b0daec49"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "accordion"
+                                    },
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "breakdownList": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-igst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-igst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-igst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-igst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-add-charges": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$add-charges$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        },
+                                        {
+                                            "styleId": "price-info-left-image",
+                                            "imageUrl": "$accordion$",
+                                            "type": "image",
+                                            "vars": [
+                                                "accordion"
+                                            ],
+                                            "uuid": "53c7b26c-89ea-4704-838c-f761b0daec49"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "accordion"
+                                    },
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$add-charges-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "breakdownList": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$cgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$cgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "cgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$sgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "sgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$sgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "sgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-add-charges-igst": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$add-charges$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        },
+                                        {
+                                            "styleId": "price-info-left-image",
+                                            "imageUrl": "$accordion$",
+                                            "type": "image",
+                                            "vars": [
+                                                "accordion"
+                                            ],
+                                            "uuid": "53c7b26c-89ea-4704-838c-f761b0daec49"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "accordion"
+                                    },
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$add-charges-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "breakdownList": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$igst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "igst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$igst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "igst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-add-charges-no-gst": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "price-info-left",
+                                            "text": "$add-charges$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges"
+                                            ],
+                                            "uuid": "d6129ba1-8120-4123-98aa-adc2611a0363"
+                                        },
+                                        {
+                                            "styleId": "price-info-left-image",
+                                            "imageUrl": "$accordion$",
+                                            "type": "image",
+                                            "vars": [
+                                                "accordion"
+                                            ],
+                                            "uuid": "53c7b26c-89ea-4704-838c-f761b0daec49"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "accordion"
+                                    },
+                                    "styleId": "",
+                                    "uuid": "db12f7e5-c1e0-40c0-bd07-eb10d2d384c0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$add-charges-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "add-charges-value"
+                                            ],
+                                            "uuid": "a6d2110b-5978-4e64-b318-d32b835985de"
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "46651e81-1fb8-4aee-b235-8e5fd59fffe0"
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": "da4baf14-8111-4dbe-99c0-25d9b4c2159a"
+                    }
+                ],
+                "breakdownList": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$base-amount-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "base-amount-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": "5e6fd849-6747-447d-9928-1606fe089c29"
+            },
+            "price-info-filmy-pass": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "filmy-pass-icon",
+                        "imageUrl": "$filmy-pass-icon$",
+                        "type": "image",
+                        "vars": [
+                            "filmy-pass-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "20675852-abbd-4e84-b100-b1b0ba450d0e",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-title"
+                                            ],
+                                            "uuid": "8d819d56-51fc-4f96-b25c-928be58d6dc5"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "db3645c9-b753-4dff-b441-4fb223f0d325"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-value"
+                                            ],
+                                            "uuid": "3f4bee85-2278-4056-b258-00c011ab5b8d"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-value-right",
+                                    "uuid": "8ee52797-3f5f-4eb0-bfb0-cc854a4f5dcc"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-promo-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-promo-text"
+                                            ],
+                                            "uuid": "a9302a51-b240-4673-9680-f40ec319a7a7"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "02e6b847-2df3-44af-9345-31ca701b2549"
+                                }
+                            ]
+                        },
+                        "uuid": "fd267268-89b3-4e81-a321-a8da9bcaf6da"
+                    },
+                    {
+                        "uuid": "8976481f-b566-4bfb-ae8c-803c35d8a96a",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-discount-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-discount-promo"
+                                            ],
+                                            "uuid": "18191b7e-3afd-48f8-b6a7-9b611e02193a"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "b7fe0001-bdd6-45ad-af1e-2a1999ea0308"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-discount"
+                                            ],
+                                            "uuid": "ea2c81f9-cdd0-45e5-b2cc-db365bbd7f07"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "a8bf7a5d-6e9a-4166-99fc-3cfe56a8e826"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "bfc7ca91-7bf1-4976-b74e-705acfcafbfc",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-view-details$",
+                                            "type": "text",
+                                            "vars": [
+                                                "filmy-pass-view-details"
+                                            ],
+                                            "uuid": "46c549cb-9e60-4b87-bc74-596811d00277"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "filmy-pass-view-details"
+                                        }
+                                    },
+                                    "styleId": "filmy-pass-view-details",
+                                    "uuid": "d3133c66-82df-4aa2-8a5b-1bf260373c9a"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "filmy-pass-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "9ef735d3-207e-4889-b71f-12407c1b3211"
+            },
+            "price-info-filmy-pass-without-purchase": {
+                "cta": {
+                    "additionalData": {
+                        "ctaId": "filmy-pass-action"
+                    },
+                    "type": "variable"
+                },
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-title$",
+                                            "type": "text",
+                                            "uuid": "8d819d56-51fc-4f96-b25c-928be58d6dc5",
+                                            "vars": [
+                                                "filmy-pass-title"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "db3645c9-b753-4dff-b441-4fb223f0d325"
+                                }
+                            ]
+                        },
+                        "uuid": "20675852-abbd-4e84-b100-b1b0ba450d0e"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-discount-promo$",
+                                            "type": "text",
+                                            "uuid": "18191b7e-3afd-48f8-b6a7-9b611e02193a",
+                                            "vars": [
+                                                "filmy-pass-discount-promo"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "b7fe0001-bdd6-45ad-af1e-2a1999ea0308"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$filmy-pass-discount$",
+                                            "type": "text",
+                                            "uuid": "ea2c81f9-cdd0-45e5-b2cc-db365bbd7f07",
+                                            "vars": [
+                                                "filmy-pass-discount"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "a8bf7a5d-6e9a-4166-99fc-3cfe56a8e826"
+                                }
+                            ]
+                        },
+                        "uuid": "8976481f-b566-4bfb-ae8c-803c35d8a96a"
+                    }
+                ],
+                "meta": {
+                    "leftIcon": {
+                        "imageUrl": "$filmy-pass-icon$",
+                        "styleId": "filmy-pass-icon",
+                        "type": "image",
+                        "vars": [
+                            "filmy-pass-icon"
+                        ]
+                    },
+                    "separator": {
+                        "styleId": "separator"
+                    }
+                },
+                "styleId": "",
+                "uuid": "9ef735d3-207e-4889-b71f-12407c1b3211"
+            },
+            "price-info-bms-club": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "filmy-pass-icon",
+                        "imageUrl": "$bms-club-icon$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "b2f32b0f-a320-4b5c-8aec-1f8b5d259da2",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ],
+                                            "uuid": "43dd2aaf-b43c-4af2-85d7-fee99702f0f5"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "aaf103ca-d3bc-4918-ba8f-009ebcac4848"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "117ee640-1338-4a66-b238-81397a112383",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-promo-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-promo-text"
+                                            ],
+                                            "uuid": "40f1869d-e70c-4dd7-b72e-8b23484718d4"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "1d13bfe4-4474-4d22-9b24-ada8680e3947"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-value"
+                                            ],
+                                            "uuid": "d181c0aa-cf4a-4c7e-9733-8e8327784257"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-value-right",
+                                    "uuid": "580bb8ca-91aa-4c39-82c2-08a0e1eac809"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "55a49662-2e54-4493-86f3-627f2752baf1"
+            },
+            "price-info-bms-club-fnb": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "filmy-pass-icon",
+                        "imageUrl": "$bms-club-icon$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "b2f32b0f-a320-4b5c-8aec-1f8b5d259da2",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ],
+                                            "uuid": "43dd2aaf-b43c-4af2-85d7-fee99702f0f5"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "aaf103ca-d3bc-4918-ba8f-009ebcac4848"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "117ee640-1338-4a66-b238-81397a112383",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-promo-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-promo-text"
+                                            ],
+                                            "uuid": "40f1869d-e70c-4dd7-b72e-8b23484718d4"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "1d13bfe4-4474-4d22-9b24-ada8680e3947"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-value"
+                                            ],
+                                            "uuid": "d181c0aa-cf4a-4c7e-9733-8e8327784257"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-value-right",
+                                    "uuid": "580bb8ca-91aa-4c39-82c2-08a0e1eac809"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$fnb-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "fnb-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$fnb-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "fnb-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "55a49662-2e54-4493-86f3-627f2752baf1"
+            },
+            "price-info-bms-club-redemption": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "filmy-pass-icon",
+                        "imageUrl": "$bms-club-icon$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "b2f32b0f-a320-4b5c-8aec-1f8b5d259da2",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ],
+                                            "uuid": "43dd2aaf-b43c-4af2-85d7-fee99702f0f5"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "aaf103ca-d3bc-4918-ba8f-009ebcac4848"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "55a49662-2e54-4493-86f3-627f2752baf1"
+            },
+            "price-info-bms-club-redemption-fnb": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    },
+                    "leftIcon": {
+                        "styleId": "filmy-pass-icon",
+                        "imageUrl": "$bms-club-icon$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-icon"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "b2f32b0f-a320-4b5c-8aec-1f8b5d259da2",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ],
+                                            "uuid": "43dd2aaf-b43c-4af2-85d7-fee99702f0f5"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-left",
+                                    "uuid": "aaf103ca-d3bc-4918-ba8f-009ebcac4848"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$bms-club-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "uuid": "75c6114f-0958-4297-ac69-617f82d0d639",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$fnb-promo$",
+                                            "type": "text",
+                                            "vars": [
+                                                "fnb-promo"
+                                            ],
+                                            "uuid": "fce0b0b1-5763-434b-a97d-ff06a39ede39"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "95c08af0-6fb0-47a0-84ff-05dd4fb11894"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$fnb-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "fnb-discount"
+                                            ],
+                                            "uuid": "0593307f-29dd-40a8-8993-b42ad4d327e9"
+                                        }
+                                    ],
+                                    "styleId": "filmy-pass-discount",
+                                    "uuid": "59d679e3-1aed-4199-9772-73f2e8a3f195"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-action"
+                    }
+                },
+                "styleId": "",
+                "uuid": "55a49662-2e54-4493-86f3-627f2752baf1"
+            },
+            "price-info-order-total": {
+                "meta": {
+                    "separator": {
+                        "styleId": "separator"
+                    }
+                },
+                "list": [
+                    {
+                        "styleId": "order-total",
+                        "uuid": "dcfd2166-f867-4c81-8335-ff602e63fb7c",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$order-total-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "order-total-label"
+                                            ],
+                                            "uuid": "b922b698-e8a5-4f67-a996-10f49290cb2f"
+                                        }
+                                    ],
+                                    "styleId": "order-total-left",
+                                    "uuid": "fe68399a-3e11-4277-8a60-ece9e539fca1"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$order-total-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "order-total-value"
+                                            ],
+                                            "uuid": "b1c69f4a-e708-47b9-914a-94b1b23ee53d"
+                                        }
+                                    ],
+                                    "styleId": "order-total-right",
+                                    "uuid": "d035086e-1bd0-4e52-86b6-984a80976f42"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "styleId": "",
+                "uuid": "43c98b88-63b9-43f0-9977-f52760abb309"
+            },
+            "price-info-pvr": {
+                "list": [
+                    {
+                        "styleId": "",
+                        "uuid": "11a6b2b1-a922-478e-a22a-4598e82dd353",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "generic-instrument-top-left-image",
+                                            "imageUrl": "$pvr-icon$",
+                                            "type": "image",
+                                            "vars": [
+                                                "pvr-icon"
+                                            ],
+                                            "uuid": "134cb4f4-33be-4887-89b4-e77c4ccd259a"
+                                        },
+                                        {
+                                            "styleId": "generic-instrument-top-left-text",
+                                            "text": "$pvr-privilege-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "pvr-privilege-text"
+                                            ],
+                                            "uuid": "6f74c5f8-4016-4e93-9377-57efc107fb84"
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "62f203ff-dc7f-41f9-b179-7b3e41f6b24b"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "generic-instrument-top-right-text",
+                                            "text": "$pvr-discount$",
+                                            "type": "text",
+                                            "vars": [
+                                                "pvr-discount"
+                                            ],
+                                            "uuid": "9190239f-82e9-4400-a99a-e82067105f43"
+                                        }
+                                    ],
+                                    "uuid": "5d00f47e-3db4-42fd-bca8-0d94512ac53c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "styleId": "",
+                        "uuid": "057de2de-7d98-4b6d-885b-ff94f82f1b9d",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$pvr-voucher-left$",
+                                            "type": "text",
+                                            "vars": [
+                                                "pvr-voucher-left"
+                                            ],
+                                            "uuid": "6c471d45-1245-40dc-8069-d497576709d7"
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": "7f8e8f3e-4772-44fd-ac8f-9e30ddb0a702"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "ctaId": "pvr-remove",
+                                            "text": "$pvr-remove-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "pvr-remove-text"
+                                            ],
+                                            "uuid": "784d509c-4254-4e38-a649-41623760deac"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "pvr-action"
+                                        }
+                                    },
+                                    "styleId": "generic-instrument-remove-text",
+                                    "uuid": "2cc4cbc2-058f-4d7d-a5b7-3c5cf2e4b51f"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "styleId": "pvr",
+                "uuid": "b8deda18-217c-4103-9873-53621c8b2fa6"
+            },
+            "price-info-ticket-price": {
+                "list": [
+                    {
+                        "styleId": "",
+                        "uuid": "729141dc-d00b-4445-b1b1-7fefdb6958c0",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "8b75456d-2fb4-49e5-b999-b6191eadc392",
+                                            "styleId": "price-info-left",
+                                            "text": "$ticket-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "ticket-label"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "",
+                                    "uuid": "16165ba5-cba3-4572-81fa-6be08314dad7"
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "6b96f2d8-3f2b-4c45-b595-aa75d122a5c7",
+                                            "text": "$ticket-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "ticket-value"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "price-info-right",
+                                    "uuid": "70d84157-c37b-464a-82e0-0aba6f532112"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "styleId": "",
+                "uuid": "47463fc3-875a-4fce-aa80-891a4876f9de"
+            },
+            "pvr-voucher": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$pvr-privilege-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "pvr-privilege-text"
+                                            ],
+                                            "uuid": "eb94a64b-07f4-4b71-8937-8882dd36091c"
+                                        }
+                                    ],
+                                    "styleId": "pvr-privilege-text",
+                                    "uuid": "bee2644f-594f-41f1-90d3-5815e991e630"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "24f83bae-e915-49f9-b80c-0dbf7a5051ef"
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "view-vouchers-text",
+                                            "text": "$view-vouchers-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "view-vouchers-text"
+                                            ],
+                                            "uuid": "d10f6e4b-d6eb-42fc-b276-864b03ed7650"
+                                        },
+                                        {
+                                            "styleId": "view-vouchers-image",
+                                            "imageUrl": "$view-vouchers-chevron$",
+                                            "type": "image",
+                                            "vars": [
+                                                "view-vouchers-chevron"
+                                            ],
+                                            "uuid": "50842c75-8eb7-460a-b9db-ed2e49d51dca"
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "variable",
+                                        "additionalData": {
+                                            "ctaId": "pvr-view-vouchers"
+                                        }
+                                    },
+                                    "styleId": "",
+                                    "uuid": "481d9ef4-2ac2-4ddc-a265-a3aa1f5e4974"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "1b3dd7a0-d320-4c19-a76d-4f010e14a6b3"
+                        },
+                        "styleId": "pvr-privilege-title",
+                        "uuid": "830c3283-d38f-41b7-8a3f-9da2ef5d42cf"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$view-vouchers-left-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "view-vouchers-left-text"
+                                            ],
+                                            "uuid": "52314017-98cc-4195-9087-cfe5e8559585"
+                                        }
+                                    ],
+                                    "styleId": "pvr-vouchers-left-text",
+                                    "uuid": "2eceeba9-b4c2-4ea8-99e2-b761f50f3edc"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "d0a0ae51-36c2-4cb5-8632-fdf6ba28613d"
+                        },
+                        "styleId": "pvr-privilege-subtitle",
+                        "uuid": "4d9ed4b0-6c50-4eb3-a797-176e97c19d6e"
+                    }
+                ],
+                "styleId": "pvr-voucher-card",
+                "uuid": "63e48a55-3b91-421d-a534-371b4f76a2c6"
+            },
+            "user-consent": {
+                "list": [
+                    {
+                        "uuid": "48af41c0-bc4d-4c91-84d4-7a233798d6ec",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "aa807bc1-cf4a-4b5c-b36b-cdb46dbf6545",
+                                            "text": "$user-consent-text$",
+                                            "type": "text",
+                                            "vars": [
+                                                "user-consent-text"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "user-consent-text",
+                                    "uuid": "8a621f14-6128-4ac6-b10b-1e505da8461d"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "4848bf69-dd00-49f1-b0e1-5842bb7c97df"
+                        },
+                        "styleId": ""
+                    }
+                ],
+                "styleId": "normal-card",
+                "uuid": "4126297f-aced-4a24-8c70-f6cbfb5006e7"
+            },
+            "bms-club-banner": {
+                "meta": {
+                    "leftIcon": {
+                        "styleId": "bms-club-logo",
+                        "imageUrl": "$bms-club-logo$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-logo"
+                        ]
+                    },
+                    "background": {
+                        "styleId": "bms-club-background",
+                        "imageUrl": "$bms-club-background$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-background"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "ad49a587-f17b-4648-8b67-7a9f3bd7fbe0",
+                        "styleId": "bms-club-banner-title",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "9fea4b83-25a5-4de9-b428-5253417d7145",
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "bms-club-title",
+                                    "uuid": "df401f7a-8ddd-4105-845d-4956739a65e7"
+                                }
+                            ],
+                            "uuid": "c4f8a0d4-81f0-42a1-ac28-a9f77041410c"
+                        }
+                    },
+                    {
+                        "uuid": "33afb2aa-c3c6-482d-a4e7-be3d62177e08",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "fe0644de-5e84-4a42-9b84-0efdbecdaf5e",
+                                            "text": "$bms-club-subtitle$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-subtitle"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "bms-club-subtitle",
+                                    "uuid": "b935d8ca-2a08-4488-af2f-bac7ca8174f3"
+                                }
+                            ],
+                            "uuid": "7ea4e4a2-ae11-491b-b5a9-fac39a57ade0"
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-details"
+                    }
+                },
+                "styleId": "bms-club-banner-card"
+            },
+            "bms-club-banner-added": {
+                "meta": {
+                    "leftIcon": {
+                        "styleId": "bms-club-logo",
+                        "imageUrl": "$bms-club-logo$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-logo"
+                        ]
+                    },
+                    "background": {
+                        "styleId": "bms-club-background",
+                        "imageUrl": "$bms-club-background$",
+                        "type": "image",
+                        "vars": [
+                            "bms-club-background"
+                        ]
+                    }
+                },
+                "list": [
+                    {
+                        "uuid": "ad49a587-f17b-4648-8b67-7a9f3bd7fbe0",
+                        "styleId": "bms-club-banner-title",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "9fea4b83-25a5-4de9-b428-5253417d7145",
+                                            "text": "$bms-club-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-title"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "bms-club-title",
+                                    "uuid": "df401f7a-8ddd-4105-845d-4956739a65e7"
+                                }
+                            ],
+                            "uuid": "c4f8a0d4-81f0-42a1-ac28-a9f77041410c"
+                        }
+                    },
+                    {
+                        "uuid": "33afb2aa-c3c6-482d-a4e7-be3d62177e08",
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "uuid": "fe0644de-5e84-4a42-9b84-0efdbecdaf5e",
+                                            "text": "$bms-club-subtitle$",
+                                            "type": "text",
+                                            "vars": [
+                                                "bms-club-subtitle"
+                                            ]
+                                        }
+                                    ],
+                                    "styleId": "bms-club-subtitle-added",
+                                    "uuid": "b935d8ca-2a08-4488-af2f-bac7ca8174f3"
+                                }
+                            ],
+                            "uuid": "7ea4e4a2-ae11-491b-b5a9-fac39a57ade0"
+                        }
+                    }
+                ],
+                "cta": {
+                    "type": "variable",
+                    "additionalData": {
+                        "ctaId": "bms-club-details"
+                    }
+                },
+                "styleId": "bms-club-banner-card"
+            },
+            "offer-cta-info": {
+                "list": [
+                    {
+                        "uuid": "a6c7a8ba-2fa0-11ee-8b0e-325096b39f47",
+                        "styleId": "",
+                        "leftText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "uuid": "a6c7a932-2fa0-11ee-b70c-325096b39f47",
+                                    "styleId": "price-info-left",
+                                    "components": [
+                                        {
+                                            "uuid": "a6c7a9e6-2fa0-11ee-b868-325096b39f47",
+                                            "type": "text",
+                                            "styleId": "left-text",
+                                            "text": "$left-text$",
+                                            "vars": [
+                                                "left-text"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "rightText": {
+                            "styleId": "",
+                            "data": [
+                                {
+                                    "uuid": "a6c7ab26-2fa0-11ee-96b0-325096b39f47",
+                                    "styleId": "price-info-right",
+                                    "components": [
+                                        {
+                                            "uuid": "a6c7ab94-2fa0-11ee-8971-325096b39f47",
+                                            "type": "text",
+                                            "text": "$right-text$",
+                                            "vars": [
+                                                "right-text"
+                                            ]
+                                        },
+                                        {
+                                            "uuid": "a6c7aaae-2fa0-11ee-874a-325096b39f47",
+                                            "type": "image",
+                                            "styleId": "offer-bottom-bar-card-image",
+                                            "imageUrl": "$card-type-image$",
+                                            "vars": [
+                                                "card-type-image"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "price-info-convenience-breakdown": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-cgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-cgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-cgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-cgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-sgst-label$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-sgst-label"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "rightText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$convenience-breakdown-sgst-value$",
+                                            "type": "text",
+                                            "vars": [
+                                                "convenience-breakdown-sgst-value"
+                                            ],
+                                            "uuid": ""
+                                        }
+                                    ],
+                                    "styleId": "generic-instrument-bottom-left-text",
+                                    "uuid": ""
+                                }
+                            ],
+                            "styleId": ""
+                        },
+                        "styleId": "",
+                        "uuid": ""
+                    }
+                ],
+                "styleId": "",
+                "uuid": ""
+            },
+            "tvod-banner": {
+                "meta": {
+                    "background": {
+                        "styleId": "tvod-banner",
+                        "imageUrl": "$banner$",
+                        "type": "image",
+                        "vars": [
+                            "banner"
+                        ]
+                    }
+                },
+                "styleId": "tvod-banner-widget"
+            },
+            "tvod-info": {
+                "list": [
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$info-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "info-title"
+                                            ],
+                                            "uuid": "9865e442-59f1-4efe-9ab5-48bc0a71ad0e"
+                                        }
+                                    ],
+                                    "styleId": "tvod-info-title",
+                                    "uuid": "5ab2c312-d704-44a0-bf5a-ff440411bcc5"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "8c66c0b7-fab1-41dd-9105-14b5bc485374"
+                        },
+                        "styleId": "tvod-title-line",
+                        "uuid": "0588a452-b015-4d94-8a83-ebe938b7d67f"
+                    },
+                    {
+                        "leftText": {
+                            "data": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "$info-subtitle$",
+                                            "type": "text",
+                                            "vars": [
+                                                "info-subtitle"
+                                            ],
+                                            "uuid": "9e093cb9-9ec3-4b66-8c09-cb2855e0ba6d"
+                                        }
+                                    ],
+                                    "styleId": "tvod-info-subtitle",
+                                    "uuid": "707439d1-ec9a-4fcf-ba1b-c3486970a321"
+                                }
+                            ],
+                            "styleId": "",
+                            "uuid": "d0f9583e-2117-4ad5-bd58-916aa1ce12e0"
+                        },
+                        "styleId": "",
+                        "uuid": "f0e9689e-2bf4-4f2f-8e31-8f7c8815a47f"
+                    }
+                ],
+                "styleId": "tvod-info-widget",
+                "uuid": "af131915-215c-4dcd-9e19-905c03a9d0e3"
+            }
+        },
+        "states": [
+            {
+                "SCode": "AN",
+                "SName": "Andaman and Nicobar"
+            },
+            {
+                "SCode": "AP",
+                "SName": "Andhra Pradesh"
+            },
+            {
+                "SCode": "AR",
+                "SName": "Arunachal Pradesh"
+            },
+            {
+                "SCode": "AS",
+                "SName": "Assam"
+            },
+            {
+                "SCode": "BR",
+                "SName": "Bihar"
+            },
+            {
+                "SCode": "CG",
+                "SName": "Chhattisgarh"
+            },
+            {
+                "SCode": "CH",
+                "SName": "Chandigarh"
+            },
+            {
+                "SCode": "DD",
+                "SName": "Daman and Diu"
+            },
+            {
+                "SCode": "DL",
+                "SName": "Delhi"
+            },
+            {
+                "SCode": "DN",
+                "SName": "Dadra and Nagar Haveli"
+            },
+            {
+                "SCode": "GA",
+                "SName": "Goa"
+            },
+            {
+                "SCode": "GJ",
+                "SName": "Gujarat"
+            },
+            {
+                "SCode": "HP",
+                "SName": "Himachal Pradesh"
+            },
+            {
+                "SCode": "HR",
+                "SName": "Haryana"
+            },
+            {
+                "SCode": "JH",
+                "SName": "Jharkhand"
+            },
+            {
+                "SCode": "JK",
+                "SName": "Jammu and Kashmir"
+            },
+            {
+                "SCode": "KL",
+                "SName": "Kerala"
+            },
+            {
+                "SCode": "KT",
+                "SName": "Karnataka"
+            },
+            {
+                "SCode": "LD",
+                "SName": "Lakshwadeep"
+            },
+            {
+                "SCode": "MH",
+                "SName": "Maharashtra"
+            },
+            {
+                "SCode": "ML",
+                "SName": "Meghalaya"
+            },
+            {
+                "SCode": "MN",
+                "SName": "Manipur"
+            },
+            {
+                "SCode": "MP",
+                "SName": "Madhya Pradesh"
+            },
+            {
+                "SCode": "MZ",
+                "SName": "Mizoram"
+            },
+            {
+                "SCode": "NL",
+                "SName": "Nagaland"
+            },
+            {
+                "SCode": "OR",
+                "SName": "Odisha"
+            },
+            {
+                "SCode": "PB",
+                "SName": "Punjab"
+            },
+            {
+                "SCode": "PY",
+                "SName": "Pondicherry"
+            },
+            {
+                "SCode": "RJ",
+                "SName": "Rajasthan"
+            },
+            {
+                "SCode": "SK",
+                "SName": "Sikkim"
+            },
+            {
+                "SCode": "TG",
+                "SName": "Telangana"
+            },
+            {
+                "SCode": "TN",
+                "SName": "Tamil Nadu"
+            },
+            {
+                "SCode": "TR",
+                "SName": "Tripura"
+            },
+            {
+                "SCode": "UK",
+                "SName": "Uttarakhand"
+            },
+            {
+                "SCode": "UP",
+                "SName": "Uttar Pradesh"
+            },
+            {
+                "SCode": "WB",
+                "SName": "West Bengal"
+            }
+        ]
+    }
+}

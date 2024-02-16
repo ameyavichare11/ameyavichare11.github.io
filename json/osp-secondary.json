@@ -1,0 +1,548 @@
+{
+    "data": {
+        "widgets": {
+            "bms-club-banner": {
+                "items": {
+                    "bms-club-banner": {
+                        "layoutId": "bms-club-banner",
+                        "data": {
+                            "bms-club-title": "Save up to ₹2100 on all your bookings",
+                            "bms-club-subtitle": "Know more",
+                            "bms-club-logo": "https://i.ibb.co/L9PSRn9/bms-club.png",
+                            "bms-club-background": "https://i.ibb.co/k3QRYvs/yellow-bg.png"
+                        }
+                    }
+                }
+            },
+            "summary-info": {
+                "items": {
+                    "movie-cancellation-info": {
+                        "layoutId": "movie-cancellation-available",
+                        "data": {
+                            "cancellation-title": "Cancellation available",
+                            "cancellation-subtitle-info": "This venue supports booking cancellation. To know more ",
+                            "cancellation-policy-text": "view cancellation policy"
+                        }
+                    }
+                }
+            },
+            "apply-offers": {
+                "items": {
+                    "apply-offers": {
+                        "layoutId": "apply-offers",
+                        "data": {
+                            "apply-offers-icon": "https://i.ibb.co/MVyyMTr/offers.png",
+                            "apply-offers-text": "Apply Offers",
+                            "apply-offers-right-chevron": "https://i.ibb.co/rbnFrB4/right-chevron.png"
+                        }
+                    }
+                }
+            },
+            "price-info": {
+                "items": {
+                    "price-info-filmy-pass-without-purchase": {
+                        "layoutId": "price-info-filmy-pass-without-purchase",
+                        "data": {
+                            "filmy-pass-icon": "https://i.ibb.co/jwN6hks/Subtract.png",
+                            "filmy-pass-title": "Filmy Pass",
+                            "filmy-pass-value": "₹99.00",
+                            "filmy-pass-promo-text": "Buy Filmy Pass @ ₹99 and get ",
+                            "filmy-pass-discount-promo": "Flat ₹75 off on 3 movie bookings",
+                            "filmy-pass-discount": "- ₹75.00",
+                            "filmy-pass-view-details": "View details"
+                        }
+                    },
+                    "price-info-bms-club": {
+                        "layoutId": "price-info-bms-club-redemption",
+                        "data": {
+                            "bms-club-icon": "https://i.ibb.co/TbP9mZH/Add.png",
+                            "bms-club-title": "BookMyShow Club",
+                            "bms-club-promo-text": "Club purchase",
+                            "bms-club-value": "₹129.00",
+                            "bms-club-discount-promo": "10% off on this movie booking",
+                            "bms-club-discount": "- ₹40.8",
+                            "fnb-promo": "10% off on FnB",
+                            "fnb-discount": "- ₹40.8"
+                        }
+                    },
+                    "price-info-pvr": {
+                        "layoutId": "price-info-pvr",
+                        "data": {
+                            "pvr-icon": "https://i.ibb.co/2W2C7cy/pvr-logo.png",
+                            "pvr-privilege-text": "PVR Privilege Voucher",
+                            "pvr-voucher-left": "2 PVR vouchers used (1 left)",
+                            "pvr-discount": "- ₹100.00",
+                            "pvr-remove-text": "Remove"
+                        }
+                    }
+                }
+            },
+            "contact-details": {
+                "items": {
+                    "contact-details": {
+                        "layoutId": "contact-details",
+                        "data": {
+                            "your-details-text": "Your details",
+                            "booking-details-text": " (For sending booking details)",
+                            "edit-text-icon": "https://i.ibb.co/Bnf6h4W/Edit-3x.png",
+                            "edit-text": "Edit",
+                            "contact-details-title": "ameya.vichare@bookmyshow.com",
+                            "contact-details-subtitle": "9847098470 | Mumbai"
+                        }
+                    }
+                }
+            },
+            "user-consent": {
+                "items": {
+                    "user-consent": {
+                        "layoutId": "user-consent",
+                        "data": {
+                            "user-consent-text": "By proceeding, I express my consent to complete this transaction."
+                        }
+                    }
+                }
+            },
+            "pvr-rewards": {
+                "items": {
+                    "pvr-voucher": {
+                        "layoutId": "pvr-voucher",
+                        "data": {
+                            "pvr-privilege-text": "PVR Privilege Reward",
+                            "view-vouchers-text": "View vouchers",
+                            "view-vouchers-chevron": "https://i.ibb.co/Hq18Mwp/right-chevron.png",
+                            "view-vouchers-left-text": "2 PVR vouchers used (1 left)"
+                        }
+                    }
+                }
+            }
+        },
+        "actions": {
+            "cancellation-policy-cta": {
+                "id": "webview",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "url": "https://in.bookmyshow.com/cancellation/BMSH?showcross=false"
+                }
+            },
+            "apply-offers-action": {
+                "id": "",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "bottomSheetData": {
+                        "ctaData": [
+                            {
+                                "text": "Cancel",
+                                "style": "secondary",
+                                "cta": {
+                                    "type": "close"
+                                }
+                            },
+                            {
+                                "text": "Remove",
+                                "style": "primary",
+                                "cta": {
+                                    "type": "api_call",
+                                    "additionalData": {
+                                        "data": {
+                                            "action": "offers-instrument-remove"
+                                        },
+                                        "endpoint": "http://localhost:3000/osp/osp-actions",
+                                        "method": "POST",
+                                        "type": "osp_actions"
+                                    }
+                                }
+                            }
+                        ],
+                        "widgets": [
+                            {
+                                "type": "text",
+                                "data": [
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c70122d2-feb4-40e5-af5a-5def101d0921",
+                                        "components": [
+                                            {
+                                                "uuid": "3d8c7492-077b-4d63-b8bf-7e3bc569227d",
+                                                "styleId": "widget-title",
+                                                "type": "text",
+                                                "text": "Confirm payment"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c6fff476-50fb-465e-a4e4-229e59d416cf",
+                                        "components": [
+                                            {
+                                                "uuid": "8d17d663-aaef-4c72-ac2d-616242618cbc",
+                                                "styleId": "widget-subtitle",
+                                                "type": "text",
+                                                "text": "₹300 will be deducted from your Amazon Pay Later credits."
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c6fff476-50fb-465e-a4e4-229e59d416cf",
+                                        "components": [
+                                            {
+                                                "uuid": "8d17d663-aaef-4c72-ac2d-616242618cbc",
+                                                "styleId": "widget-subtitle",
+                                                "type": "text",
+                                                "text": "Show key facts"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "filmy-pass-action": {
+                "type": "api_call",
+                "additionalData": {
+                    "data": {
+                        "action": "filmy-pass-remove"
+                    },
+                    "endpoint": "http://localhost:3000/osp/osp-actions",
+                    "method": "POST",
+                    "type": "osp_actions"
+                },
+                "analytics": {
+                    "event_name": "cta_clicked",
+                    "event_type": "click"
+                }
+            },
+            "filmy-pass-action-2": {
+                "type": "toast",
+                "additionalData": {
+                    "toastData": {
+                        "subtitle": "Filmy pass cannot be applied if ticket price is less than Rs. 100",
+                        "subtitleColor": "#FFFFFF",
+                        "backgroundColor": "#CC222222"
+                    }
+                },
+                "analytics": {
+                    "event_name": "cta_clicked",
+                    "event_type": "click"
+                }
+            },
+            "filmy-pass-action-3": {
+                "id": "",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "bottomSheetData": {
+                        "ctaData": [
+                            {
+                                "text": "Cancel",
+                                "style": "secondary",
+                                "cta": {
+                                    "type": "close"
+                                }
+                            },
+                            {
+                                "text": "Remove",
+                                "style": "primary",
+                                "cta": {
+                                    "type": "api_call",
+                                    "additionalData": {
+                                        "data": {
+                                            "action": "offers-instrument-remove"
+                                        },
+                                        "endpoint": "http://localhost:3000/osp/osp-actions",
+                                        "method": "POST",
+                                        "type": "osp_actions"
+                                    }
+                                }
+                            }
+                        ],
+                        "widgets": [
+                            {
+                                "type": "text",
+                                "data": [
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c70122d2-feb4-40e5-af5a-5def101d0921",
+                                        "components": [
+                                            {
+                                                "uuid": "3d8c7492-077b-4d63-b8bf-7e3bc569227d",
+                                                "styleId": "widget-title",
+                                                "type": "text",
+                                                "text": "Remove other offers?"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c6fff476-50fb-465e-a4e4-229e59d416cf",
+                                        "components": [
+                                            {
+                                                "uuid": "8d17d663-aaef-4c72-ac2d-616242618cbc",
+                                                "styleId": "widget-subtitle",
+                                                "type": "text",
+                                                "text": "Filmy Pass cannot be applied when other offers are applied. Please remove other offers to apply Filmy Pass."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "filmy-pass-view-details": {
+                "id": "webview",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "url": "https://in-sit.bms.bz/filmypass?requestPage=OSPBOTTOM"
+                }
+            },
+            "bms-club-action": {
+                "type": "api_call",
+                "additionalData": {
+                    "data": {
+                        "action": "bms-club-add"
+                    },
+                    "endpoint": "http://localhost:3000/osp/osp-actions",
+                    "method": "POST",
+                    "type": "osp_actions"
+                }
+            },
+            "bms-club-details": {
+                "id": "generic",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "bottomSheetData": {
+                        "ctaData": [
+                            {
+                                "type": "",
+                                "text": "Add now",
+                                "style": "primary",
+                                "cta": {
+                                    "type": "api_call",
+                                    "additionalData": {
+                                        "data": {
+                                            "action": "bms-club-add"
+                                        },
+                                        "endpoint": "http://localhost:3000/osp/osp-actions",
+                                        "method": "POST",
+                                        "type": "osp_actions"
+                                    }
+                                }
+                            }
+                        ],
+                        "widgets": [
+                            {
+                                "styleId": "",
+                                "uuid": "4c653ce9-1256-4b54-8540-8e580bdcb0f9",
+                                "data": [
+                                    {
+                                        "uuid": "b7b66bef-d959-4c84-afeb-d5f6390ec7ba",
+                                        "imageUrl": "https://assets-in.bmscdn.com/coupon/bmsclub/tr:ot-Save%20upto%20%E2%82%B92100%20with%20Club,ots-50,otc-FFFFFF,otf-Roboto,ott-b,ox-325,oy-72,tr:ot-Buy%20membership%20@%20%E2%82%B9129%20for%2045%20days.,ots-38,otc-F5F5F5,otf-Roboto,ox-323,oy-145/osp-bottomsheet.png",
+                                        "styleId": "offer-strip-banner"
+                                    }
+                                ],
+                                "type": "image",
+                                "aspectRatio": "4.0"
+                            },
+                            {
+                                "styleId": "",
+                                "uuid": "97d5f248-a11d-49cc-a74e-83f45a8564d5",
+                                "data": [
+                                    {
+                                        "components": [
+                                            {
+                                                "uuid": "f83edda0-7905-4020-9ede-48703356b951",
+                                                "styleId": "widget-card-title",
+                                                "type": "text",
+                                                "text": "Enjoy 10% off Movies, Streams, Live events, and F&B with Club membership."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "text"
+                            },
+                            {
+                                "uuid": "2f435ff4-dc63-44ba-ae0e-042f68a18801",
+                                "data": [
+                                    {
+                                        "components": [
+                                            {
+                                                "uuid": "da3851e5-4e2d-4fcc-9854-0bf160cde1e0",
+                                                "styleId": "offer-strip-bottomsheet-subtitle",
+                                                "type": "text",
+                                                "text": "Get 10% off instantly with this movie booking."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "text"
+                            }
+                        ]
+                    }
+                }
+            },
+            "contact-details-action": {
+                "analytics": {
+                    "event_name": "cta_clicked",
+                    "event_type": "click",
+                    "event_action": "edit_contact_details"
+                },
+                "id": "contact_details",
+                "type": "router",
+                "url": "https://in.bookmyshow.com/contact-details",
+                "additionalData": {
+                    "selectedStateName": "Maharashtra",
+                    "selectedStateCode": "MH",
+                    "updateDetailsCTA": {
+                        "type": "api_call",
+                        "additionalData": {
+                            "type": "osp_actions",
+                            "endpoint": "http://localhost:3000/osp/osp-actions",
+                            "method": "POST",
+                            "data": {
+                                "email": "",
+                                "mobileNo": "",
+                                "stateCode": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "pvr-action": {
+                "type": "api_call",
+                "additionalData": {
+                    "data": {
+                        "action": "pvr-remove"
+                    },
+                    "endpoint": "http://localhost:3000/osp/osp-actions",
+                    "method": "POST",
+                    "type": "osp_actions"
+                }
+            },
+            "pvr-view-vouchers": {
+                "id": "pvrVoucher",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "cancellation": {
+                        "message": "Booking cancellation will not be supported in case PVR voucher is applied.",
+                        "bgColor": "#FFF1CC"
+                    }
+                }
+            },
+            "pvr-view-vouchers-2": {
+                "id": "",
+                "type": "bottomsheet",
+                "additionalData": {
+                    "bottomSheetData": {
+                        "ctaData": [
+                            {
+                                "text": "Cancel",
+                                "style": "secondary",
+                                "cta": {
+                                    "type": "close"
+                                }
+                            },
+                            {
+                                "text": "Remove",
+                                "style": "primary",
+                                "cta": {
+                                    "type": "api_call",
+                                    "additionalData": {
+                                        "data": {
+                                            "action": "offers-instrument-remove"
+                                        },
+                                        "endpoint": "http://localhost:3000/osp/osp-actions",
+                                        "method": "POST",
+                                        "type": "osp_actions"
+                                    }
+                                }
+                            }
+                        ],
+                        "widgets": [
+                            {
+                                "type": "text",
+                                "data": [
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c70122d2-feb4-40e5-af5a-5def101d0921",
+                                        "components": [
+                                            {
+                                                "uuid": "3d8c7492-077b-4d63-b8bf-7e3bc569227d",
+                                                "styleId": "widget-title",
+                                                "type": "text",
+                                                "text": "Remove Filmy Pass?"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "",
+                                        "uuid": "c6fff476-50fb-465e-a4e4-229e59d416cf",
+                                        "components": [
+                                            {
+                                                "uuid": "8d17d663-aaef-4c72-ac2d-616242618cbc",
+                                                "styleId": "widget-subtitle",
+                                                "type": "text",
+                                                "text": "Other offers cannot be applied when Filmy Pass is applied. Do you wish to remove Filmy Pass and apply PVR vouchers?"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "dependencies": {
+            "promos": [
+                {
+                    "provider": "PVR",
+                    "title": "PVR Privilege Reward",
+                    "iconUrl": "https://in.bmscdn.com/paymentcms/pvr-logo.png",
+                    "description": "15 PVR Voucher(s) available",
+                    "amount": "",
+                    "showMoreText": "View Vouchers",
+                    "conflictingOffersText": "To avail offers, PVR Privilege points will not be applied. Do you want to continue?",
+                    "cta": {
+                        "text": "",
+                        "api": ""
+                    },
+                    "container": {
+                        "title": "PVR Privilege Rewards",
+                        "description": "We found PVR Privilege points based on your profile",
+                        "voucherCategories": [
+                            {
+                                "title": "Available Vouchers",
+                                "vouchers": [
+                                    {
+                                        "iconUrl": "https://in.bmscdn.com/paymentcms/pvr-logo.png",
+                                        "voucherCode": "TESTJJDHEJ",
+                                        "totalAmount": "50.00",
+                                        "usedAmount": "0.00",
+                                        "expiryText": "Expires on 23 Mar",
+                                        "isApplied": false,
+                                        "priority": "normal"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cta": {
+                            "text": "Apply",
+                            "api": "APPLYSELECTEDVOUCHERS"
+                        },
+                        "addVoucherContainer": {
+                            "title": "Got a PVR Voucher?",
+                            "placeholder": "Enter your PVR Voucher Code",
+                            "cta": {
+                                "text": "Add",
+                                "api": "ADDCUSTOMVOUCHER"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

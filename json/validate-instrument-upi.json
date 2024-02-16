@@ -1,0 +1,203 @@
+{
+    "action": {
+        "id": "paymentDetail",
+        "type": "router",
+        "url": "https://in.bookmyshow.com/payment-detail",
+        "additionalData": {
+            "meta": {
+                "version": 2,
+                "header": {
+                    "layoutId": "normal-header",
+                    "data": {
+                        "title": "Add new UPI"
+                    }
+                },
+                "footer": {
+                    "continue-bar": {
+                        "type": "payCTA",
+                        "defaultState": "disabled",
+                        "enabled": {
+                            "label": "Verify & Pay",
+                            "backgroundColor": "#DC354B",
+                            "textColor": "#FFFFFF",
+                            "cta": {
+                                "type": "variable",
+                                "additionalData": {
+                                    "ctaId": "continue-button-action"
+                                }
+                            }
+                        },
+                        "disabled": {
+                            "label": "Verify & Pay",
+                            "backgroundColor": "#E5E5E5",
+                            "textColor": "#808080"
+                        }
+                    }
+                },
+                "analytics": {
+                    "event_name": "payment_listing_viewed",
+                    "event_type": "screen_view",
+                    "screen_name": "upi_detail_page",
+                    "event_code": "ET00340111",
+                    "event_group": "ET00339457",
+                    "category": "upi",
+                    "product": "movies",
+                    "venue_code": "CXAW",
+                    "metadata": "bms_cash_applied, pvr_applied, offer_applied"
+                }
+            },
+            "sequence": [
+                "upi-card"
+            ],
+            "widgets": {
+                "upi-card": {
+                    "styleId": "normal-card",
+                    "type": "generic",
+                    "sequence": [
+                        "header",
+                        "upi-input",
+                        "vpa-header",
+                        "vpa-suggestions",
+                        "save-to-qp"
+                    ],
+                    "items": {
+                        "header": {
+                            "type": "generic",
+                            "layoutId": "payment-input-header",
+                            "data": {
+                                "title": "Enter your registered UPI ID/VPA"
+                            }
+                        },
+                        "upi-input": {
+                            "type": "input",
+                            "id": "upi-input",
+                            "layoutId": "upi-input",
+                            "data": {
+                                "failure-image": "https://i.ibb.co/d6vb6Kx/Helper-icon-3x.png",
+                                "success-image": "https://i.ibb.co/whf0rj6/Helper-icon-3x.png"
+                            },
+                            "additionalData": {
+                                "shouldBecomeFirstResponder": true
+                            }
+                        },
+                        "vpa-header": {
+                            "type": "generic",
+                            "id": "vpa-header",
+                            "layoutId": "vpa-header",
+                            "data": {
+                                "title": "VPA Suggestions"
+                            },
+                            "additionalData": {
+                                "shouldShow": false
+                            }
+                        },
+                        "vpa-suggestions": {
+                            "type": "custom",
+                            "id": "vpa-suggestions",
+                            "additionalData": {
+                                "shouldShow": false,
+                                "suggestions": [
+                                    "paytm",
+                                    "phonepe",
+                                    "okaxis",
+                                    "okhdfcbank",
+                                    "okicici",
+                                    "oksbi",
+                                    "icici",
+                                    "idfcbank",
+                                    "waicici",
+                                    "waaxis",
+                                    "wahdfcbank",
+                                    "wasbi",
+                                    "ybl",
+                                    "ibl",
+                                    "axl",
+                                    "axisb",
+                                    "sliceaxis",
+                                    "tapicici",
+                                    "jupiteraxis",
+                                    "ikwik",
+                                    "apl",
+                                    "yapl",
+                                    "rapl",
+                                    "abfspay",
+                                    "abfspay",
+                                    "goaxb",
+                                    "indus",
+                                    "naviaxis",
+                                    "niyoicici",
+                                    "pingpay",
+                                    "shriramhdfcbank",
+                                    "timecosmos"
+                                ],
+                                "cta": {
+                                    "type": "textAppend",
+                                    "id": "upiId",
+                                    "additionalData": {
+                                        "text": "",
+                                        "afterFirstOccurenceOf": "@",
+                                        "widgetId": "upi-input",
+                                        "fieldId": "upi-id"
+                                    }
+                                }
+                            }
+                        },
+                        "save-to-qp": {
+                            "type": "checkbox",
+                            "id": "saveToQuickpay",
+                            "layoutId": "save-to-qp-generic",
+                            "data": {
+                                "checkbox-title": "Securely save UPI ID. Your UPI ID is 100% safe with us.",
+                                "checkbox": "https://i.ibb.co/jwN6hks/Subtract.png",
+                                "checkbox-enabled": "https://i.ibb.co/jwN6hks/Subtract.png",
+                                "checkbox-disabled": "https://i.ibb.co/TbP9mZH/Add.png"
+                            },
+                            "additionalData": {
+                                "isSelected": true
+                            }
+                        },
+                        "cvv-input": {
+                            "type": "input-box",
+                            "id": "cvv",
+                            "additionalData": {
+                                "count": 3
+                            }
+                        }
+                    }
+                }
+            },
+            "actions": {
+                "continue-button-action": {
+                    "type": "api_call",
+                    "additionalData": {
+                        "type": "verify_upi",
+                        "endpoint": "https://services-in.bookmyshow.com/payments/v1/orders/verify-upi",
+                        "method": "POST",
+                        "data": {
+                            "instrument": "OTHERUPI",
+                            "transactionId": "4133469924",
+                            "upiFlow": "COLLECT",
+                            "upiId": "",
+                            "alertEmail": "ameya.vichare@bookmyshow.com",
+                            "alertMobile": "9167770451",
+                            "saveToQuickpay": "",
+                            "eTicket": true,
+                            "mTicket": true
+                        },
+                        "header": {
+                            "Content-Type": "application/json"
+                        }
+                    },
+                    "analytics": {
+                        "event_name": "payment_pay_now_clicked",
+                        "event_type": "click",
+                        "metadata": "bms_cash_applied, pvr_applied, offer_applied",
+                        "offer_code": "ABC43QE",
+                        "category" : "upi",
+                        "label" : "Other UPI"
+                    }
+                }
+            }
+        }
+    }
+}

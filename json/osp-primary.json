@@ -1748,20 +1748,6 @@
                                 },
                                 "add-upi-action": {
                                     "additionalData": {
-                                        "data": {
-                                            "eTicket": " ",
-                                            "eventType": "MT",
-                                            "instrument": {
-                                                "flow": "COLLECT",
-                                                "name": "ADDUPI"
-                                            },
-                                            "mTicket": "",
-                                            "payDesc": "",
-                                            "saveToQuickPay": true,
-                                            "savedInstrumentId": "",
-                                            "transactionId": "3818291629",
-                                            "typeCode": "cd"
-                                        },
                                         "endpoint": "https://ameyavichare11.github.io/json/validate-instrument-upi.json",
                                         "header": {
                                             "Content-Type": "application/json"
